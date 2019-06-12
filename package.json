@@ -1,0 +1,24 @@
+{
+  "name": "api-rest",
+  "version": "0.0.1",
+  "description": "Proyecto ejemplo api-rest",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Rodriguez Morales GorilaST",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "crypto": "^1.0.1",
+    "express": "^4.15.4",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.19.2",
+    "mongoose": "^4.11.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
